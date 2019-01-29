@@ -37,7 +37,7 @@ This is done to avoid a sql injection attack.
 Look at the `find_by_id` and `find_by_address` methods in the Property class.
 
 Q10. What do they take in as their arguments?
-id and address.
+id and address. Number and a string
 
 Q11. What are their return values?
-array of hashes which needs to be converted to just a hash.
+they return a property object
